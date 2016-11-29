@@ -37,7 +37,6 @@ class SourceEditorCommand: NSObject, XCSourceEditorCommand {
         
         if #available(OSXApplicationExtension 10.12, *) {
             let path = fileManager.homeDirectoryForCurrentUser
-
             print("PATH", path)
         } else {
             // Fallback on earlier versions
@@ -64,10 +63,8 @@ class SourceEditorCommand: NSObject, XCSourceEditorCommand {
         
         var request = URLRequest(url: URL(string: "http://127.0.0.1:3325/event")!)
         request.httpMethod = "POST"
-        request.setValue("application/json; charset=utf-8", forHTTPHeaderField: "Content-Type")  
-        //request.setValue("application/json; charset=utf-8", forHTTPHeaderField: "Accept")
+        request.setValue("application/json; charset=utf-8", forHTTPHeaderField: "Content-Type")
         
-        //request.httpBody = postString.data(using: .utf8)
         request.httpBody = jsonData
         
         print("DEBUG: REQUEST BODY:", String(describing: request.httpBody))
