@@ -1,0 +1,710 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		133EDF8C1DB264F60029443E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 133EDF8B1DB264F60029443E /* AppDelegate.swift */; };
+		133EDF8E1DB264F60029443E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 133EDF8D1DB264F60029443E /* ViewController.swift */; };
+		133EDF901DB264F60029443E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 133EDF8F1DB264F60029443E /* Assets.xcassets */; };
+		133EDF931DB264F60029443E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 133EDF911DB264F60029443E /* Main.storyboard */; };
+		133EDF9E1DB264F60029443E /* DeckardTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 133EDF9D1DB264F60029443E /* DeckardTests.swift */; };
+		133EDFA91DB264F60029443E /* DeckardUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 133EDFA81DB264F60029443E /* DeckardUITests.swift */; };
+		133EDFBD1DB265420029443E /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 133EDFBC1DB265420029443E /* Cocoa.framework */; };
+		133EDFC21DB265420029443E /* SourceEditorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 133EDFC11DB265420029443E /* SourceEditorExtension.swift */; };
+		133EDFC41DB265420029443E /* SourceEditorCommand.swift in Sources */ = {isa = PBXBuildFile; fileRef = 133EDFC31DB265420029443E /* SourceEditorCommand.swift */; };
+		133EDFC81DB265420029443E /* Deckard Plugin.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 133EDFBA1DB265420029443E /* Deckard Plugin.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		133FA1771DB6036F000D4691 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 133EDF8D1DB264F60029443E /* ViewController.swift */; };
+		133FA1781DB60370000D4691 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 133EDF8D1DB264F60029443E /* ViewController.swift */; };
+		133FA1791DB60370000D4691 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 133EDF8D1DB264F60029443E /* ViewController.swift */; };
+		133FA17A1DB60380000D4691 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 133EDF8B1DB264F60029443E /* AppDelegate.swift */; };
+		133FA17B1DB60380000D4691 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 133EDF8B1DB264F60029443E /* AppDelegate.swift */; };
+		133FA17C1DB60381000D4691 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 133EDF8B1DB264F60029443E /* AppDelegate.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		133EDF9A1DB264F60029443E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 133EDF801DB264F60029443E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 133EDF871DB264F60029443E;
+			remoteInfo = Deckard;
+		};
+		133EDFA51DB264F60029443E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 133EDF801DB264F60029443E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 133EDF871DB264F60029443E;
+			remoteInfo = Deckard;
+		};
+		133EDFC61DB265420029443E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 133EDF801DB264F60029443E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 133EDFB91DB265420029443E;
+			remoteInfo = "Deckard Plugin";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		133EDFCC1DB265420029443E /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				133EDFC81DB265420029443E /* Deckard Plugin.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		133EDF881DB264F60029443E /* Deckard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Deckard.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		133EDF8B1DB264F60029443E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		133EDF8D1DB264F60029443E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		133EDF8F1DB264F60029443E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		133EDF921DB264F60029443E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		133EDF941DB264F60029443E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		133EDF991DB264F60029443E /* DeckardTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DeckardTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		133EDF9D1DB264F60029443E /* DeckardTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeckardTests.swift; sourceTree = "<group>"; };
+		133EDF9F1DB264F60029443E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		133EDFA41DB264F60029443E /* DeckardUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DeckardUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		133EDFA81DB264F60029443E /* DeckardUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeckardUITests.swift; sourceTree = "<group>"; };
+		133EDFAA1DB264F60029443E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		133EDFBA1DB265420029443E /* Deckard Plugin.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Deckard Plugin.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		133EDFBC1DB265420029443E /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		133EDFC01DB265420029443E /* Deckard_Plugin.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Deckard_Plugin.entitlements; sourceTree = "<group>"; };
+		133EDFC11DB265420029443E /* SourceEditorExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SourceEditorExtension.swift; sourceTree = "<group>"; };
+		133EDFC31DB265420029443E /* SourceEditorCommand.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SourceEditorCommand.swift; sourceTree = "<group>"; };
+		133EDFC51DB265420029443E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		133EDF851DB264F60029443E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		133EDF961DB264F60029443E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		133EDFA11DB264F60029443E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		133EDFB71DB265420029443E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				133EDFBD1DB265420029443E /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		133EDF7F1DB264F60029443E = {
+			isa = PBXGroup;
+			children = (
+				133EDF8A1DB264F60029443E /* Deckard */,
+				133EDF9C1DB264F60029443E /* DeckardTests */,
+				133EDFA71DB264F60029443E /* DeckardUITests */,
+				133EDFBE1DB265420029443E /* Deckard Plugin */,
+				133EDFBB1DB265420029443E /* Frameworks */,
+				133EDF891DB264F60029443E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		133EDF891DB264F60029443E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				133EDF881DB264F60029443E /* Deckard.app */,
+				133EDF991DB264F60029443E /* DeckardTests.xctest */,
+				133EDFA41DB264F60029443E /* DeckardUITests.xctest */,
+				133EDFBA1DB265420029443E /* Deckard Plugin.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		133EDF8A1DB264F60029443E /* Deckard */ = {
+			isa = PBXGroup;
+			children = (
+				133EDF8B1DB264F60029443E /* AppDelegate.swift */,
+				133EDF8D1DB264F60029443E /* ViewController.swift */,
+				133EDF8F1DB264F60029443E /* Assets.xcassets */,
+				133EDF911DB264F60029443E /* Main.storyboard */,
+				133EDF941DB264F60029443E /* Info.plist */,
+			);
+			path = Deckard;
+			sourceTree = "<group>";
+		};
+		133EDF9C1DB264F60029443E /* DeckardTests */ = {
+			isa = PBXGroup;
+			children = (
+				133EDF9D1DB264F60029443E /* DeckardTests.swift */,
+				133EDF9F1DB264F60029443E /* Info.plist */,
+			);
+			path = DeckardTests;
+			sourceTree = "<group>";
+		};
+		133EDFA71DB264F60029443E /* DeckardUITests */ = {
+			isa = PBXGroup;
+			children = (
+				133EDFA81DB264F60029443E /* DeckardUITests.swift */,
+				133EDFAA1DB264F60029443E /* Info.plist */,
+			);
+			path = DeckardUITests;
+			sourceTree = "<group>";
+		};
+		133EDFBB1DB265420029443E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				133EDFBC1DB265420029443E /* Cocoa.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		133EDFBE1DB265420029443E /* Deckard Plugin */ = {
+			isa = PBXGroup;
+			children = (
+				133EDFC11DB265420029443E /* SourceEditorExtension.swift */,
+				133EDFC31DB265420029443E /* SourceEditorCommand.swift */,
+				133EDFC51DB265420029443E /* Info.plist */,
+				133EDFBF1DB265420029443E /* Supporting Files */,
+			);
+			path = "Deckard Plugin";
+			sourceTree = "<group>";
+		};
+		133EDFBF1DB265420029443E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				133EDFC01DB265420029443E /* Deckard_Plugin.entitlements */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		133EDF871DB264F60029443E /* Deckard */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 133EDFAD1DB264F60029443E /* Build configuration list for PBXNativeTarget "Deckard" */;
+			buildPhases = (
+				133EDF841DB264F60029443E /* Sources */,
+				133EDF851DB264F60029443E /* Frameworks */,
+				133EDF861DB264F60029443E /* Resources */,
+				133EDFCC1DB265420029443E /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				133EDFC71DB265420029443E /* PBXTargetDependency */,
+			);
+			name = Deckard;
+			productName = Deckard;
+			productReference = 133EDF881DB264F60029443E /* Deckard.app */;
+			productType = "com.apple.product-type.application";
+		};
+		133EDF981DB264F60029443E /* DeckardTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 133EDFB01DB264F60029443E /* Build configuration list for PBXNativeTarget "DeckardTests" */;
+			buildPhases = (
+				133EDF951DB264F60029443E /* Sources */,
+				133EDF961DB264F60029443E /* Frameworks */,
+				133EDF971DB264F60029443E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				133EDF9B1DB264F60029443E /* PBXTargetDependency */,
+			);
+			name = DeckardTests;
+			productName = DeckardTests;
+			productReference = 133EDF991DB264F60029443E /* DeckardTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		133EDFA31DB264F60029443E /* DeckardUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 133EDFB31DB264F60029443E /* Build configuration list for PBXNativeTarget "DeckardUITests" */;
+			buildPhases = (
+				133EDFA01DB264F60029443E /* Sources */,
+				133EDFA11DB264F60029443E /* Frameworks */,
+				133EDFA21DB264F60029443E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				133EDFA61DB264F60029443E /* PBXTargetDependency */,
+			);
+			name = DeckardUITests;
+			productName = DeckardUITests;
+			productReference = 133EDFA41DB264F60029443E /* DeckardUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		133EDFB91DB265420029443E /* Deckard Plugin */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 133EDFC91DB265420029443E /* Build configuration list for PBXNativeTarget "Deckard Plugin" */;
+			buildPhases = (
+				133EDFB61DB265420029443E /* Sources */,
+				133EDFB71DB265420029443E /* Frameworks */,
+				133EDFB81DB265420029443E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Deckard Plugin";
+			productName = "Deckard Plugin";
+			productReference = 133EDFBA1DB265420029443E /* Deckard Plugin.appex */;
+			productType = "com.apple.product-type.xcode-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		133EDF801DB264F60029443E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0800;
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = deckard.ai;
+				TargetAttributes = {
+					133EDF871DB264F60029443E = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = D5H4PP33QC;
+						ProvisioningStyle = Automatic;
+					};
+					133EDF981DB264F60029443E = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = D5H4PP33QC;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 133EDF871DB264F60029443E;
+					};
+					133EDFA31DB264F60029443E = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = D5H4PP33QC;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 133EDF871DB264F60029443E;
+					};
+					133EDFB91DB265420029443E = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = D5H4PP33QC;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.ApplicationGroups.Mac = {
+								enabled = 0;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = 133EDF831DB264F60029443E /* Build configuration list for PBXProject "Deckard" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 133EDF7F1DB264F60029443E;
+			productRefGroup = 133EDF891DB264F60029443E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				133EDF871DB264F60029443E /* Deckard */,
+				133EDF981DB264F60029443E /* DeckardTests */,
+				133EDFA31DB264F60029443E /* DeckardUITests */,
+				133EDFB91DB265420029443E /* Deckard Plugin */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		133EDF861DB264F60029443E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				133EDF901DB264F60029443E /* Assets.xcassets in Resources */,
+				133EDF931DB264F60029443E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		133EDF971DB264F60029443E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		133EDFA21DB264F60029443E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		133EDFB81DB265420029443E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		133EDF841DB264F60029443E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				133EDF8E1DB264F60029443E /* ViewController.swift in Sources */,
+				133EDF8C1DB264F60029443E /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		133EDF951DB264F60029443E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				133FA17A1DB60380000D4691 /* AppDelegate.swift in Sources */,
+				133FA1791DB60370000D4691 /* ViewController.swift in Sources */,
+				133EDF9E1DB264F60029443E /* DeckardTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		133EDFA01DB264F60029443E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				133FA17B1DB60380000D4691 /* AppDelegate.swift in Sources */,
+				133FA1781DB60370000D4691 /* ViewController.swift in Sources */,
+				133EDFA91DB264F60029443E /* DeckardUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		133EDFB61DB265420029443E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				133FA17C1DB60381000D4691 /* AppDelegate.swift in Sources */,
+				133FA1771DB6036F000D4691 /* ViewController.swift in Sources */,
+				133EDFC21DB265420029443E /* SourceEditorExtension.swift in Sources */,
+				133EDFC41DB265420029443E /* SourceEditorCommand.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		133EDF9B1DB264F60029443E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 133EDF871DB264F60029443E /* Deckard */;
+			targetProxy = 133EDF9A1DB264F60029443E /* PBXContainerItemProxy */;
+		};
+		133EDFA61DB264F60029443E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 133EDF871DB264F60029443E /* Deckard */;
+			targetProxy = 133EDFA51DB264F60029443E /* PBXContainerItemProxy */;
+		};
+		133EDFC71DB265420029443E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 133EDFB91DB265420029443E /* Deckard Plugin */;
+			targetProxy = 133EDFC61DB265420029443E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		133EDF911DB264F60029443E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				133EDF921DB264F60029443E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		133EDFAB1DB264F60029443E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		133EDFAC1DB264F60029443E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+			};
+			name = Release;
+		};
+		133EDFAE1DB264F60029443E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = D5H4PP33QC;
+				INFOPLIST_FILE = Deckard/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.deckardai.Deckard;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		133EDFAF1DB264F60029443E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = D5H4PP33QC;
+				INFOPLIST_FILE = Deckard/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.deckardai.Deckard;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		133EDFB11DB264F60029443E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = D5H4PP33QC;
+				INFOPLIST_FILE = DeckardTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.deckardai.DeckardTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Deckard.app/Contents/MacOS/Deckard";
+			};
+			name = Debug;
+		};
+		133EDFB21DB264F60029443E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = D5H4PP33QC;
+				INFOPLIST_FILE = DeckardTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.deckardai.DeckardTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Deckard.app/Contents/MacOS/Deckard";
+			};
+			name = Release;
+		};
+		133EDFB41DB264F60029443E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = D5H4PP33QC;
+				INFOPLIST_FILE = DeckardUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.deckardai.DeckardUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = Deckard;
+			};
+			name = Debug;
+		};
+		133EDFB51DB264F60029443E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = D5H4PP33QC;
+				INFOPLIST_FILE = DeckardUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.deckardai.DeckardUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = Deckard;
+			};
+			name = Release;
+		};
+		133EDFCA1DB265420029443E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "Deckard Plugin/Deckard_Plugin.entitlements";
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = D5H4PP33QC;
+				INFOPLIST_FILE = "Deckard Plugin/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @executable_path/../../../../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.deckardai.Deckard.Deckard-Plugin";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		133EDFCB1DB265420029443E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "Deckard Plugin/Deckard_Plugin.entitlements";
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = D5H4PP33QC;
+				INFOPLIST_FILE = "Deckard Plugin/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @executable_path/../../../../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.deckardai.Deckard.Deckard-Plugin";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		133EDF831DB264F60029443E /* Build configuration list for PBXProject "Deckard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				133EDFAB1DB264F60029443E /* Debug */,
+				133EDFAC1DB264F60029443E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		133EDFAD1DB264F60029443E /* Build configuration list for PBXNativeTarget "Deckard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				133EDFAE1DB264F60029443E /* Debug */,
+				133EDFAF1DB264F60029443E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		133EDFB01DB264F60029443E /* Build configuration list for PBXNativeTarget "DeckardTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				133EDFB11DB264F60029443E /* Debug */,
+				133EDFB21DB264F60029443E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		133EDFB31DB264F60029443E /* Build configuration list for PBXNativeTarget "DeckardUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				133EDFB41DB264F60029443E /* Debug */,
+				133EDFB51DB264F60029443E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		133EDFC91DB265420029443E /* Build configuration list for PBXNativeTarget "Deckard Plugin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				133EDFCA1DB265420029443E /* Debug */,
+				133EDFCB1DB265420029443E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 133EDF801DB264F60029443E /* Project object */;
+}
